@@ -1,0 +1,126 @@
+body {
+    background-color: #b57562;
+}
+/* div body  */
+div.body {
+    margin: auto;
+    width: 50%;
+}
+
+/* div background Color */
+div.container {
+    background-color: #451425;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Heading Center  */
+h1 {
+    text-align:  center;
+}
+
+/* Form Cotainer */
+div.formContainer {
+    width: 100%;
+    
+}
+
+/* input Area  */
+input.inputClass {
+
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+}
+
+/* Add buttuon Area */
+ button.addbtn {
+    width: 18%;
+ }
+
+ /* Update Button Hide */
+ .none {
+    /* visibility: hidden; */
+ }
+
+
+/*Li Style */
+ li {
+    list-style-type: none;
+    border: 2px solid blue;
+    margin-top: 5px;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(216, 206, 206);
+ }
+
+ /* Li Input Style */
+ li input {
+    background-color: rgb(237, 242, 245);
+    width: 30%;
+    color: #0f0a0c;
+    border-radius: 5px;
+    font-size: 1rem;
+ }
+
+ /* Li Button */
+ li button {
+    background-color: #615b5b;
+    color: white;
+    width: 15%;
+    font-size: 1rem;
+ }
+ 
+
+ /* Add Div Style*/
+ div.add {
+    width: 100%;
+ }
+
+ /* Alert Div Style  */
+ div.alert {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    top: 0;
+    width: 20%;
+    margin: auto;
+    border: 2px solid orange;
+    position: static;
+    visibility: hidden;
+    position: sticky;
+ }
+
+/* Responsive size */
+@media (max-width: 680px) {
+
+    /* input Area  */
+    input.inputClass {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* Add buttuon Area */
+    button.addbtn {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* Li Input Style */
+    li input {
+        width: 95%;
+    }
+
+    /*Li Button Style */
+    li button {
+        width: 50%;
+    }
+
+    /* Div Alert */
+    div.alert {
+        width: 100%;
+    }
+
+}
